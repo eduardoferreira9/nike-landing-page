@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background-color: white;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.logo-nike {
+    flex: 0 0 auto;
+    width: 120px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 70px;
+    margin-right: 275px;
+}
+
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1E1E;
+    font-weight:600;
+    font-size: 24px;
+}
+
+.conteudo {
+    margin-top: 45px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 90px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texto-principal-escrito {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.texto-secundario-escrito {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ja1 {
+    position: absolute;
+    width: 600px;
+    top: 10%; 
+    left: 53%;
+    filter: drop-shadow(4px 5px 6px rgba(black));   
+}
+
+#bolas {
+   padding-bottom: 35px;
+}
+
+.elipse1 {
+    position: relative;
+    margin-left: 120vh;
+    margin-top: -350px;
+    height: 340px;
+    width: 340px;
+    background-color: #F4AFBC;
+    border-radius: 1000px;
+}
+
+.elipse2 {
+    margin-left: 95vh;
+    margin-top: -100px;
+    height: 150px;
+    width: 150px;
+    background-color: #DDFF94;
+    border-radius: 1000px;
+}
+
+.elipse3{
+    margin-left: 95vh;
+    margin-top: -290px;
+    height: 100px;
+    width: 100px;
+    background-color: #B0C8EB;
+    border-radius: 1000px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-top: -25px;
+    gap: 20px;
+}
+
+.comprar {
+    height: 40px;
+    width: 150px;
+    background-color: #F4AFBC;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: black;
+    border: none;
+}
+
+.ler-mais {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: 600;
+}
+
